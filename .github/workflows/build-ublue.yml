@@ -21,8 +21,8 @@ jobs:
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
-          #- t2-atomic-bluefin.yml
-          #- t2-atomic-bluefin-dx.yml
+          - t2-atomic-bluefin.yml
+          - t2-atomic-bluefin-dx.yml
           #- t2-atomic-aurora.yml
           #- t2-atomic-aurora-dx.yml
           - t2-atomic-bazzite.yml
